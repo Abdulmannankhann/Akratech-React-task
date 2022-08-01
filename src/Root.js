@@ -5,7 +5,6 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import Appbar from "./components/Appbar";
 import Card from "./components/Card";
-
 function Root() {
   const [usersData, setUsersData] = useState([]);
   const [loader, setLoader] = useState(true);
